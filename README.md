@@ -12,11 +12,16 @@ Talk instead of typing, take healthy breaks, and keep your desktop clean — all
 
 ## Install
 
-1. **[Download Wow Work](https://heywow.work/download)** (macOS 14 or newer).
-2. Open the download and drag **Wow Work** onto **Applications**.
-3. Open Wow Work from Applications. macOS will say it can't verify the app — that's normal for apps shared between friends:
-   click **Done**, then go to **System Settings → Privacy & Security**, scroll down, click **Open Anyway** next to "Wow Work was blocked", and confirm.
-   You only do this once.
-4. Follow **Get started**: paste your invite code, allow the microphone and Accessibility — done.
+**Fastest** — open Terminal and paste (installs in seconds, no security prompts):
+
+```
+curl -fsSL https://heywow.work/install | bash
+```
+
+**Or** [download the .dmg](https://heywow.work/download), drag **Wow Work** onto **Applications**, and on first launch go to
+**System Settings → Privacy & Security → Open Anyway** (once).
+
+Then allow the microphone and Accessibility — Wow Work connects to its free AI by itself (about 5 hours of dictation a month, no account).
+macOS 14 or newer, Apple silicon or Intel.
 
 Updates arrive automatically.
